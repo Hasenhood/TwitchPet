@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+</head>
+<body>
+    <button id="btn" onclick="changeImage();">Dance</button>
+    <button id="btn" onclick="changeImage2();">Idle</button>
+    <img id="Idle" src="Sprites/Sprite1.png" alt="Pikachu" style="position: absolute;">
+</body>
+<script> 
+
+    function changeImage()
+    {
+    var img = document.getElementById("Idle");
+    img.src="Sprites/Pikachu.gif";
+    return false;
+    }
+
+    function changeImage2()
+    {
+    var img = document.getElementById("Idle");
+    img.src="Sprites/Sprite1.png";
+    return false;
+    }
+    
+    </script>    
+</html>
